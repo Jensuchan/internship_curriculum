@@ -1,10 +1,10 @@
 import nltk
 from nltk.corpus import stopwords
 nltk.download('punkt')
-
-from collections import *
 from nltk import *
 #from nltk.corpus import word_tokenize
+
+from collections import *
 
 cnt = Counter()
 for word in ['red', 'blue', 'red', 'green', 'blue', 'blue']:
